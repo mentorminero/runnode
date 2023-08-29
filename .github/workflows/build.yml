@@ -26,3 +26,4 @@ jobs:
 
     - name: Run the Node.js application
       run: node script.js
+      run: node server.js

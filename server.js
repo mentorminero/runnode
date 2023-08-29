@@ -7,6 +7,7 @@ app.get('/run-script', (req, res) => {
   var moment = require('moment');
   var date = moment().format('LL');
   res.send(date); // Envía la fecha como respuesta
+  console.log(date);
 });
 
 const PORT = process.env.PORT || 3000;

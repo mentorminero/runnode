@@ -25,5 +25,4 @@ jobs:
       # You don't need to install 'require' and 'moment' separately if they are listed in your package.json file.
 
     - name: Run the Node.js application
-      run: node script.js
-      run: node server.js
+      run: node script.js, server.js
